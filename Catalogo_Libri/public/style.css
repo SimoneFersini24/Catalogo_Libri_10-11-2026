@@ -1,0 +1,74 @@
+
+@charset "UTF-8";
+
+/* Impostazioni della pagina */
+body {
+    background-color: #101820;
+    font-family: Arial;
+    color: white;
+}
+
+#contenitore {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b2630;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #66ccff;
+    font-size: 30px;
+}
+
+/* Contenitore dei libri */
+#catalogo {
+    overflow: auto;
+}
+
+/* Aspetto di ogni libro */
+.libro {
+    width: 250px;
+    height: 370px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+/* Immagini dei libri */
+.libro img {
+    height: 180px;
+}
+
+.libro h2 {
+    font-size: 18px;
+    color: #66ccff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.libro p {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Link del carrello */
+.libro a {
+    color: white;
+    font-size: 14px;
+    background-color: #006699;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/* Prezzi dei libri */
+.libro p.prezzo {
+    color: #66ccff;
+    font-size: 18px;
+    font-weight: bold;
+}
